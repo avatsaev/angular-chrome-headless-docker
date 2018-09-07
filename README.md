@@ -8,7 +8,7 @@ Docker image with embedded Node 8 and Chrome Headless preconfigured for Angular 
 
 #### Launch scripts:
 
-- unit tests:  `ng test --single-run --browser=ChromeHeadless`
+- unit tests:  `ng test --watch=false --browsers=ChromeHeadless`
 
 - e2e tests:  `ng e2e`
 
